@@ -1,0 +1,49 @@
+*{
+    background-color:rgb(114, 143, 169)
+}
+.port{
+    color:blue
+}
+#nav{
+    color: orangered;
+}
+a{
+    color:palevioletred;
+}
+#home,#skills,#Education,#project,#contact,#video,#audio,#location{
+    color: brown;
+}
+&copy{
+    color: red;
+}
+#tab{
+    color: blue;
+}
+.f,.s,.t,.fo,.ph{
+    color:coral;
+}
+.sub{
+    background-color:chartreuse
+}
+hr{
+    color: black;
+}
+&copy{
+    color: aqua;
+}
+ .rights{
+    /* text-align: center;  */
+     color:crimson;
+}
+.db,.ft,.bt{
+    color:yellowgreen;
+}
+.bio{
+    color: blueviolet;
+}
+.sm{
+    color: red;
+}
+
+
+
