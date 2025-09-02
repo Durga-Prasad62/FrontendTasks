@@ -7,43 +7,54 @@
 
 
 .container{
-    padding:10px 20px 30px 40px;
-    border: 10px  solid orange;
     background-color: aqua;
-    color: brown;
-    border-radius: 50px;
+    width: 400px;
+    height:400px;
+    padding-top:20px;
     margin-top: 50px;
+    border: 10px  solid orange;
+    color:coral;
+    border-radius: 50px;
+
 }
 .container1{
-    padding:10px 20px 30px 40px;
+   padding-top:20px;
+     height:400px;
+    width: 400px;
     border: 10px  solid rgb(21, 255, 0);
     background-color: brown;
-    color: blueviolet;
     border-radius: 50px;
+    color:rgb(23, 27, 23);
     margin-top: 50px;
 }
 
 .container2{
-    padding:10px 20px 30px 40px;
+    padding-top:10px;
+    height:400px;
+    width: 400px;
     border: 10px  solid rgb(93, 0, 255);
     background-color: cadetblue;
-    color: rgb(43, 198, 226);
+    color: rgb(170, 227, 13);
      border-radius: 50px;
      margin-top: 50px;
 }
 .container3{
-    padding:10px 20px 30px 40px;
+   padding-top:10px;
     border: 10px  solid rgb(22, 144, 160);
     background-color: blueviolet;
+    height:400px;
+    width: 400px;
     color: rgb(186, 226, 43);
      border-radius: 50px;
       margin-top: 50px;
 }
 .container4{
-    padding:10px 20px 30px 40px;
+ padding-top:10px;
     border: 10px  solid rgb(158, 22, 160);
-    color: rgb(142, 146, 130);
+    color: rgb(0, 120, 129);
     background-color: chartreuse;
+     height:400px;
+    width: 400px;
     border-radius: 50px;
       margin-top: 50px;
 }
