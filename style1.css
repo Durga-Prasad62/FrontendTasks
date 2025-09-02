@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container{
+    padding:10px 20px 30px 40px;
+    border: 10px  solid orange;
+    color: brown;
+    margin-top: 50px;
+}
+.container1{
+    padding:10px 20px 30px 40px;
+    border: 10px  solid rgb(21, 255, 0);
+    color: blueviolet;
+    margin-top: 50px;
+}
+
+.container2{
+    padding:10px 20px 30px 40px;
+    border: 10px  solid rgb(93, 0, 255);
+    color: rgb(43, 198, 226);
+     margin-top: 50px;
+}
+.container3{
+    padding:10px 20px 30px 40px;
+    border: 10px  solid rgb(22, 144, 160);
+    color: rgb(186, 226, 43);
+      margin-top: 50px;
+}
+.container4{
+    padding:10px 20px 30px 40px;
+    border: 10px  solid rgb(158, 22, 160);
+    color: rgb(142, 146, 130);
+      margin-top: 50px;
+}
