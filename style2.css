@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    height: 300px;
+    width:  300px; 
+    position: relative;
+    margin-left: 20px; 
+}
+.container1{
+    height: 300px;
+    width:  300px; 
+    position: relative;
+    margin-left: 20px;
+    display: inline-block;
+} 
+img{
+    width: 100%;
+
+   
+} 
+p{
+    background-color: black;
+    color: white;
+    position: absolute;
+    top:0;
+    padding-left: 10px;
+
+}
+    
+
