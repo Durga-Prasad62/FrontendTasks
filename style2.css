@@ -17,9 +17,39 @@
 }
 
 
+
 .firstcontainer{
     margin: 30px;
+    position: relative;
 }
+.sub{
+    background-color: black;
+    position: absolute;
+    /* margin-bottom:10px; */
+    height: 50px;
+    width:50px;
+    top:50%;
+    left:50%;
+    padding: 20px;
+    color: white;
+    letter-spacing: 2px;
+}
+.sub1{
+    position: absolute;
+    height: 50px;
+    width:50px;
+    margin-right: 50px;
+    top:50%;
+    left:60%;
+    color:white;
+    padding: 20px;
+    letter-spacing: 2px;
+}
+   
+    
+  
+   
+    
 
 
 .container,.container1,.container2,.container3,.container4,.container5,.container6,.container7{
@@ -62,9 +92,7 @@ img{
 }
 img{
     width:100%
-}
-
-   
+}   
 
 .c{
     color:grey
