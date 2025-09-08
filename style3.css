@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.imagecontainer{
+    position: relative;
+}
+
+   
+
+.childcontainer{
+    display: inline-block;
+    /* border: 10px solid black; */
+    margin-left: 40px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+   position: relative;
+}
+img{
+    width:300px
+}
+.text{
+    position: absolute;
+}
+
+
+
+   
