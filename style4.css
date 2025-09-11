@@ -1,0 +1,69 @@
+  .navcontainer{
+        background-color: black;
+        color:white;
+        display: flex;
+        gap:20px;
+        justify-content: space-around;
+        padding: 20px;
+        margin-bottom: 50px;
+         margin-top: 20px;
+        width: 100%;
+    } 
+      .navcontainer1{
+        background-color: black;
+        color:white;
+        display: flex;
+        gap:15px;
+        justify-content: space-around;
+        padding: 20px;
+        margin-bottom: 50px;
+        margin-top: 20px;
+        width: 100%;
+    } 
+    .bi-arrow-up-left-square-fill{  
+     color:blue;
+     
+    }
+    .bi-bookmark-x-fill{
+        color: red;
+       
+    }
+      .navcontainer2{
+        background-color: black;
+        color:white;
+        display: flex;
+        gap:15px;
+        justify-content: space-around;
+    
+        padding:15px;
+        margin-bottom: 50px;
+        margin-top: 20px;
+        width: 100%;
+        height: 30px;
+      }
+.navcontainer3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    width:40px;  
+    margin-top: 30px;  
+}
+.navcontainer3>p{
+    align-items: start;
+}
+
+
+    
+
+   
+
+
+
+
+  
+    
+  
