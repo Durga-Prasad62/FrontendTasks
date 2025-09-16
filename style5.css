@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.maincontainer{
+    display: flex;
+    gap:20px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   
+    /* background-color: rgb(255, 0, 195); */
+}
+.item{
+    /* background-color: aqua; */
+    flex-grow: 1;
+    width: 200px;
+    height:200px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   align-self: flex-start;
+}
+img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width:75%
+
+}
