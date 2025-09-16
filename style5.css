@@ -14,15 +14,14 @@
 .item{
     /* background-color: aqua; */
     flex-grow: 1;
-    width: 200px;
-    height:200px;
-   margin-top: 10px;
+    margin-top: 10px;
    margin-bottom: 10px;
    align-self: flex-start;
 }
 img{
     margin-top: 10px;
     margin-bottom: 10px;
-    width:75%
-
+    width:300px;
+    height:300px;
+    
 }
