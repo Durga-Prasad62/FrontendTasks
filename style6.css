@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  color: white;
+}
+html,body{
+    overflow-x: hidden;
+}
+.maincontainer{
+    flex-direction: column;
+    display: flex;
+    /* justify-content: center;  */
+    /* align-items: center; */
+    padding: 20px;
+    width: 300px;
+    height:1000px;
+    background-color:white;
+    color:gray; 
+    position: fixed;   
+    z-index: +1;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+}
+.item1{
+    margin-top: 50px;
+    text-align: center;
+    font-size: x-large;
+
+}
+.item2{
+     text-align: center;
+     margin-top: 10px;
+     font-size: x-large;
+    
+}
+
+
+.secondcontainer{
+    margin-top: 60px;
+ 
+}
+.item3,.item4,.item5{
+     text-align: center;
+     margin-top: 10px;
+     font-size: x-large;    
+}
+.secondcontainer>.item3:hover{
+    color: aqua;
+}
+.secondcontainer>.item4:hover{
+    color: aqua;
+}
+.secondcontainer>.item5:hover{
+    color: aqua;
+}
+
+img{
+    width:450px;
+    height:450px;
+    /* margin-left: 300px;  */
+
+}
+.maincontainer2{
+    display: flex;
+    margin-left: 300px;
+    align-items: start;
+    gap:5px;
+    transition: filter 0.5s ease;
+    width: 100%;
+}
+.textcontainer{
+    margin-left: 50px;
+}
+
+
+.thirdcontainer{
+    background-color: darkslategrey;
+    width:1890px;
+    height:1890px;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    margin-left: 150px;
+    
+
+}
+.thirdcontainer>h1{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin-right: 250px;
+}
+.thirdcontainer>.profile{
+    margin-top: 40px;
+  
+
+}
+.thirdcontainer>.profile>img{
+    width: 600px;
+    margin-right: 250px;
+}
+h3{
+    text-align: start;
+    margin-left: 475px;
+}
+p{
+ margin-left: 475px;
+ text-align: justify;
+ margin-top: 30px;
+}
+.skills-container {
+  width: 500px;
+  margin-top: 20px;
+  margin-left: 470px;
+  
+}
+.skills-container p {
+  text-align: right;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: left;
+}
+
+.skill-bar {
+  width: 100%;
+  background: #ccc;
+  margin: 10px 0 20px 0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.skill {
+  text-align: right;
+  padding: 10px;
+  color: black;
+  font-weight: bold;
+  background: #888;
+}
+
+.photography {
+  width: 95%;
+}
+
+.web {
+  width: 85%;
+}
+
+.photoshop {
+  width: 80%;
+}
+p {
+  line-height: 1.6;  
+}
+.container {
+  text-align: left;
+
+}
+
+
+.boxmaincontainer{
+    display: flex;
+    text-align: left;
+    margin-top: 30px;
+    align-items: center;
+    margin-right: 250px;
+    justify-content: center;
+    
+}
+.basic{
+    background-color: black;
+    width: 200px;
+    height: 40px; 
+    text-align: center; 
+}
+.list{
+    margin-top: 20px;
+    background-color: grey;
+    width: 200px;
+    height: 170px; 
+    padding: 10px;
+}
+.b1,.b2,.b3,.b4,.b5{
+    padding: 4px;
+}
+.table{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  margin-left: 70px;
+  margin-top: 30px;
+}
+.table-data{
+    width: 45%;
+}
+.table-data1{
+    width: 45%;
+}
+.table-data th{
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+.table-data th{
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+.table-data td{
+    background-color: white;
+    padding: 15px;
+     color: black;
+}
+
+.table-data1 th{
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+.table-data1 th{
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+.table-data1 td{
+    background-color: white;
+    padding: 15px;
+    color: black;
+}
+.form-container{
+  width: 1550px; 
+  background-color: #ccc;
+  /* margin-top: 1px; */
+  /* margin-right: 300px; */
+  color: black;
+}
+.input-container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-left: 700px;
+  gap: 10px;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: right;
+  
+
+}
+.input-container input{
+  width: 600px;
+  height: 50px;
+}
+.input-container button{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  width: 600px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+   
+
