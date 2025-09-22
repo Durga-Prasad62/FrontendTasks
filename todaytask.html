@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Container</title>
+    <style>
+        .btn-container{
+            display: flex;
+            margin-left: 400px;
+            border: 2px solid;
+            width:50%
+        }
+        button{
+            width:380px;
+        }
+  #check1:checked ~ .container,
+  #check2:checked ~ .container {
+    display: flex;
+    justify-content: space-around;
+  }
+    .menu1, .menu2 {
+    display: none;
+    width: 45%;
+    text-align: left;
+  }
+
+  /* show the proper menu */
+  #check1:checked ~ .container .menu1 { display: block; }
+  #check2:checked ~ .container .menu2 { display: block; }
+
+        .container{
+
+            border: 2px solid;
+            width:50%;
+            margin-left: 400px;
+            display: none;    
+
+        }
+       .menu1, .menu2 {
+       display: none;
+      width: 45%;
+      text-align: left;
+  }  
+        
+    #check1:checked ~ .container,
+    #check2:checked ~ .container {
+        display: flex;
+    }
+       
+         #check1:checked ~ .container +.menu1 {
+        display: block;
+    }
+        #check2:checked ~ .container +.menu2 {
+        display: block;
+    }
+    </style>
+</head>
+<body>
+  <input type="radio" id="check1" name="menu">
+  <input type="radio" id="check2" name="menu">
+
+  <div class="btn-container">
+    <label for="check1">Eat</label>
+    <label for="check2">Drink</label>
+  </div>
+
+<div class="container">
+ <div class="menu1">
+   <p>Bread Basket</p>  
+  <p>Assortment of fresh baked fruit breads and muffins 5.50</p>
+
+
+ <p>Honey Almond Granola with Fruits</p>
+ <p>Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+
+<p>Belgian Waffle</p>
+<p>Vanilla flavored batter with malted flour 7.50</p>
+
+
+<p>Scrambled eggs</p>
+<p>Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+
+
+<p>Blueberry Pancakes</p>
+ <p>With syrup, butter and lots of berries 8.50</p>
+</div>
+<div class="menu2">
+   <p>Coffee</p>
+   <p> Regular coffee 2.50</p>
+
+
+   <p>Chocolato</p>
+  <p>Chocolate espresso with milk 4.50</p>
+
+  <p>Corretto</p>
+  <p>Whiskey and coffee 5.00</p>
+
+ <p>Iced tea</p>
+<p>Hot tea, except not hot 3.00</p>
+
+<p>Soda</p>
+<p>Coke, Sprite, Fanta, etc. 2.50</p>
+</div>
+</div>
+  
+    
+</body>
+</html>
