@@ -174,14 +174,13 @@ h1{
 }
 .footer{
     background-color: #f1f1f1;
-     width: 100%;
-     height: 250px;
+    width: 100%;
+    height: 200px;
      display: flex;
      justify-content: center;
      align-items: center;
      gap: 5px;
-     color: #000;;
-     margin-left: 90px;
+     color: #000;
      position: relative;
 }
 .bi{
@@ -192,8 +191,7 @@ h1{
     top:60%;
     left: 700px;
     margin-top: 30px;
- 
-  text-decoration:underline; 
+    text-decoration:underline; 
 
 }
 
