@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <style>
+        html,body{
+            height: 100%;
+
+        }
+        .parent{
+            width: 100%;
+            height: 70% ;
+            background-color: purple;
+            border: 2px solid black;
+            display: flex;
+        }
+        .child1{
+            width: 20%;
+            height: 40%;
+            background-color:rgb(237, 242, 242);
+            margin-left: 2%;
+        }
+         .child2{
+            width: 20%;
+            height: 40%;
+            background-color:rgb(198, 27, 33);
+            margin-left: 50%;
+        }
+        .child3{
+            width: 20%;
+            height: 40%;
+            background-color:rgb(64, 198, 27);
+            margin-left: 2%;
+        }
+        @media  screen and (min-width: 768px) and (max-width: 1024px) {
+            .child3{
+            width: 40%;
+            height: 60%;
+            background-color:rgb(81, 27, 198);
+            margin-left: 50%;
+            margin-right: 2%;
+            }
+            .child2{
+                display: none;
+
+            }
+        }
+        @media screen  and (min-width:600px) and (max-width:768px){
+            body,html{
+                height: 100%;
+            }
+           .child3{
+            width: 40%;
+            height: 60%;
+            background-color:rgb(197, 22, 25);
+            margin-left: 30%;
+            margin-top: 10%; 
+           }
+           .child2{
+            display: none;
+           }
+           .child1{
+            display: none;
+           }
+            
+        }
+        /* #small screens */
+        @media screen and (max-width:600px) {
+              body,html{
+                height: 100%;
+            }
+           .child3{
+            width: 40%;
+            height: 60%;
+            background-color:rgb(197, 22, 25);
+            margin-left: 30%;
+            margin-top: 10%; 
+           }
+           .child2{
+            display: none;
+           }
+           .child1{
+            display: none;
+           }
+            
+        }
+            
+        
+            
+
+        
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child1">
+            </div>
+            <div class="child2">
+            </div>
+                <div class="child3"></div>
+            </div>
+
+
+
+    </div>
+    
+</body>
+</html>
